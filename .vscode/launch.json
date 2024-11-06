@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "C:\\Users\\korne\\source\\repos\\AI_Lorcana_Price_Checker\\output\\clip4str_base16x16_d70bde1f2d.ckpt", "--images_path", "C:\\Users\\korne\\source\\repos\\AI_Lorcana_Price_Checker\\test"
+            ]
+        }
+    ]
+}

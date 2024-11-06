@@ -18,3 +18,5 @@ opendatasets
 transformers==4.17.0
 seaborn
 ftfy
+selenium
+webdriver-manager

@@ -20,7 +20,6 @@ import torch
 
 from PIL import Image
 
-from CropImage.cropCard import process_card_image
 from strhub.data.module import SceneTextDataModule
 from strhub.models.utils import load_from_checkpoint, parse_model_args
 
@@ -43,7 +42,7 @@ def main():
     for fname in files:
         # Load image and prepare for input
         filename = os.path.join(args.images_path, fname)
-        image = Image.fromarray(process_card_image(filename))
+        image = Image.open(filename).convert('RGB')
         image = img_transform(image).unsqueeze(0).to(args.device)
 
         p = model(image).softmax(-1)
