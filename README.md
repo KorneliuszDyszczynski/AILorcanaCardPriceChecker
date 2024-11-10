@@ -1,5 +1,9 @@
 # AI_Lorcana_Price_Checker
 
+
+https://github.com/user-attachments/assets/011e11a1-77d1-42a8-af18-bec9b63ba389
+
+
 ## Overview
 
 **AI_Lorcana_Price_Checker**  is a fun side project designed to process images of Lorcana cards, extract text, and retrieve additional card information such as names and prices. The system leverages deep learning for text recognition, along with web scraping to gather card details from external sources.
