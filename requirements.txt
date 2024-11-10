@@ -20,3 +20,4 @@ seaborn
 ftfy
 selenium
 webdriver-manager
+flask 

@@ -21,7 +21,7 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 import re
-from CropImage.cropCard import process_card_image
+from CardProcessor import process_card_image
 from strhub.data.module import SceneTextDataModule
 from strhub.models.utils import load_from_checkpoint, parse_model_args
 
