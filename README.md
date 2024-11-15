@@ -1,4 +1,4 @@
-# AI_Lorcana_Price_Checker
+# AI Lorcana Price Checker
 
 
 https://github.com/user-attachments/assets/011e11a1-77d1-42a8-af18-bec9b63ba389
