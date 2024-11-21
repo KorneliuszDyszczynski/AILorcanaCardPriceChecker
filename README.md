@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/011e11a1-77d1-42a8-af18-bec9b63ba389
 Requires `Python >= 3.8` 
 
 ```
-conda create --name clip4str python=3.8.5
+conda create --name yourname python=3.8.5
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 -c pytorch
 pip install -r requirements.txt 
 ```
